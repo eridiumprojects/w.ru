@@ -1,0 +1,48 @@
+{
+  "configurations" : [
+    {
+      "id" : "0596533A-AD9D-4176-969D-129D963D68C4",
+      "name" : "Test Scheme Action",
+      "options" : {
+        "targetForVariableExpansion" : {
+          "containerPath" : "container:weatherdotru.xcodeproj",
+          "identifier" : "919C43CD2A9A5FFB00678E7C",
+          "name" : "weatherdotru"
+        }
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:WhatsTheWeather.xcodeproj",
+          "identifier" : "919C43CD2A9A5FFB00678E7C",
+          "name" : "WhatsTheWeather"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:weatherdotru.xcodeproj",
+      "identifier" : "919C43CD2A9A5FFB00678E7C",
+      "name" : "weatherdotru"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:weatherdotru.xcodeproj",
+        "identifier" : "919C43E32A9A5FFE00678E7C",
+        "name" : "weatherdotruTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:weatherdotru.xcodeproj",
+        "identifier" : "919C43ED2A9A5FFE00678E7C",
+        "name" : "weatherdotruUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
